@@ -1,0 +1,228 @@
+.team {
+  padding: 1rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.teams {
+  padding: 1rem;
+  background: linear-gradient(90deg, rgb(0, 42, 102) 0%, rgb(26, 23, 23) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+.bg {
+  padding: 1rem;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+}
+h3 {
+  text-align: center;
+  color: #000;
+}
+
+.org-container {
+  width: 100%;
+  height: 100%;
+}
+
+.ContactTemplate {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  margin: 2px;
+}
+
+.ContactTemplate2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: white;
+  margin: 2px;
+}
+
+.ContactTitleBackground {
+  width: 100%;
+  padding: 5px 0;
+  background-color: var(--item-title-color, #4169E1);
+  color: white;
+}
+
+.ContactTitle {
+  font-weight: bold;
+}
+
+.ContactContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.ContactPhoto {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.ContactTemplate:hover {
+  width: auto;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.ContactTemplate:hover .ContactPhoto {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.ContactTemplate:hover .ContactDescription {
+  width: auto;
+  height: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.ContactDescription {
+  flex: 1;
+  text-align: center;
+  font-size: small;
+  z-index: 1;
+}
+
+
+.legend {
+  background-color: #fff;
+}
+
+.modal-close-button-x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #636363;
+}
+
+.modal-close-button-x:hover {
+  color: #ff0000;
+}
+
+.modal-download-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.modal-download-button:hover {
+  background-color: #0056b3;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.ReactModal__Content {
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  margin-right: -50% !important;
+  transform: translate(-50%, -50%) !important;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.modal-download-button,
+.modal-close-button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.modal-close-button {
+  background-color: #636363;
+  color: white;
+}
+
+.job-description {
+  text-align: center;
+}
+
+/* Team.css (example additions) */
+
+.department-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.department-buttons button {
+  background-color: #008bfa; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.department-buttons button:hover {
+  background-color: #0064b6;
+}
