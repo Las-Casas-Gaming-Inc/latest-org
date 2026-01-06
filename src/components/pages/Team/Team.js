@@ -13,54 +13,54 @@ import {
 import "./Team.css";
 
 const JOB_DESCRIPTIONS = {
-    "Web Developer": "https://organization.lascasasgaming.com/webdev_jd.pdf",
+    "Web Developer": "https://organization.lascasasgaming.com/job_descriptions/webdev_jd.pdf",
     "Software Developer":
-        "https://organization.lascasasgaming.com/softdev_jd.pdf",
-    "IT Specialist": "https://organization.lascasasgaming.com/itspec_jd.pdf",
-    "IT Infrastructure": "https://organization.lascasasgaming.com/infra_jd.pdf",
-    "Junior Developer": "https://organization.lascasasgaming.com/jr_dev_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/softdev_jd.pdf",
+    "IT Specialist": "https://organization.lascasasgaming.com/job_descriptions/itspec_jd.pdf",
+    "IT Infrastructure": "https://organization.lascasasgaming.com/job_descriptions/infra_jd.pdf",
+    "Junior Developer": "https://organization.lascasasgaming.com/job_descriptions/jr_dev_jd.pdf",
     "Senior Developer":
-        "https://organization.lascasasgaming.com/sr_web_dev_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/sr_web_dev_jd.pdf",
     "Mobile App Developer":
-        "https://organization.lascasasgaming.com/mob_app_dev_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/mob_app_dev_jd.pdf",
     "Customer Service Representative":
-        "https://organization.lascasasgaming.com/csr_jd.pdf",
-    "Multimedia Artist": "https://organization.lascasasgaming.com/multi_jd.pdf",
-    "IT Head": "https://organization.lascasasgaming.com/it_head_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/csr_jd.pdf",
+    "Multimedia Artist": "https://organization.lascasasgaming.com/job_descriptions/multi_jd.pdf",
+    "IT Head": "https://organization.lascasasgaming.com/job_descriptions/it_head_jd.pdf",
     "Marketing Head":
-        "https://organization.lascasasgaming.com/marketing_head_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/marketing_head_jd.pdf",
     "Marketing Supervisor":
-        "https://organization.lascasasgaming.com/marketing_super_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/marketing_super_jd.pdf",
     "Marketing Brand Officer":
-        "https://organization.lascasasgaming.com/marketing_brand_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/marketing_brand_jd.pdf",
     "Marketing Digital":
-        "https://organization.lascasasgaming.com/marketing_digital_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/marketing_digital_jd.pdf",
     "Marketing Staff":
-        "https://organization.lascasasgaming.com/marketing_staff_jd.pdf",
-    "Sales Head": "https://organization.lascasasgaming.com/sales_head_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/marketing_staff_jd.pdf",
+    "Sales Head": "https://organization.lascasasgaming.com/job_descriptions/sales_head_jd.pdf",
     "HR Admin Assist":
-        "https://organization.lascasasgaming.com/hr_admin_asst_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/hr_admin_asst_jd.pdf",
     "Vice President":
-        "https://organization.lascasasgaming.com/vice_pres_jd.pdf",
-    President: "https://organization.lascasasgaming.com/president_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/vice_pres_jd.pdf",
+    "President": "https://organization.lascasasgaming.com/job_descriptions/president_jd.pdf",
     "Finance Head":
-        "https://organization.lascasasgaming.com/finance_head_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/finance_head_jd.pdf",
     "Utility Personnel":
-        "https://organization.lascasasgaming.com/utility_person_jd.pdf",
-    "CSR Head": "https://organization.lascasasgaming.com/csr_head_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/utility_person_jd.pdf",
+    "CSR Head": "https://organization.lascasasgaming.com/job_descriptions/csr_head_jd.pdf",
     "EA Vice President":
-        "https://organization.lascasasgaming.com/ea_vice_pres_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/ea_vice_pres_jd.pdf",
     "EA President":
-        "https://organization.lascasasgaming.com/ea_president_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/ea_president_jd.pdf",
     "Public Relations":
-        "https://organization.lascasasgaming.com/public_relations_jd.pdf",
-    Copywriter: "https://organization.lascasasgaming.com/copywriter_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/public_relations_jd.pdf",
+    "Copywriter": "https://organization.lascasasgaming.com/job_descriptions/copywriter_jd.pdf",
     "Gaming Finance Analyst":
-        "https://organization.lascasasgaming.com/finance_analyst_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/finance_analyst_jd.pdf",
     "Gaming Site Staff":
-        "https://organization.lascasasgaming.com/gaming_site_staff_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/gaming_site_staff_jd.pdf",
     "General Accounts":
-        "https://organization.lascasasgaming.com/general_accounts_jd.pdf",
+        "https://organization.lascasasgaming.com/job_descriptions/general_accounts_jd.pdf",
     "HR Head": "https://organization.lascasasgaming.com/hr_head_jd.pdf",
 };
 
@@ -94,7 +94,7 @@ const JOB_KPI = {
         "https://organization.lascasasgaming.com/hr_admin_asst_kpi.pdf",
     "Vice President":
         "https://organization.lascasasgaming.com/vice_pres_kpi.pdf",
-    President: "https://organization.lascasasgaming.com/president_kpi.pdf",
+    "President": "https://organization.lascasasgaming.com/president_kpi.pdf",
     "Finance Head":
         "https://organization.lascasasgaming.com/finance_head_kpi.pdf",
     "Utility Personnel":
@@ -106,7 +106,7 @@ const JOB_KPI = {
         "https://organization.lascasasgaming.com/ea_president_kpi.pdf",
     "Public Relations":
         "https://organization.lascasasgaming.com/public_relations_kpi.pdf",
-    Copywriter: "https://organization.lascasasgaming.com/copywriter_kpi.pdf",
+    "Copywriter": "https://organization.lascasasgaming.com/copywriter_kpi.pdf",
     "Gaming Finance Analyst":
         "https://organization.lascasasgaming.com/finance_analyst_kpi.pdf",
     "Gaming Site Staff":
@@ -272,11 +272,10 @@ class Team extends Component {
             {
                 id: 11,
                 parent: 7,
-                title: "Vacant",
+                title: "Alvin Mira Castillo",
                 jd_pdf: "Senior Web Developer",
                 description: "Senior Web Developer",
-                image: "/images/default_user.jpg",
-                itemTitleColor: Colors.Red,
+                image: "/images/alvin.jpg",
                 childrenPlacementType: ChildrenPlacementType.Vertical,
                 templateName: "contactTemplate",
                 jobDescription0: "Position Title: Senior Web Developer",
@@ -368,11 +367,12 @@ class Team extends Component {
             {
                 id: 17,
                 parent: 116,
-                title: "Alvin Mira Castillo",
+                title: "Vacant",
                 jd_pdf: "Web Developer",
                 description: "Web Developer",
-                image: "/images/alvin.jpg",
-                templateName: "contactTemplate2",
+                image: "/images/default_user.jpg",
+                templateName: "contactTemplate",
+                itemTitleColor: "#ff0000",
                 jobDescription0: "Position Title: Web Developer",
                 jobDescription1: "Reporting Relationships",
                 jobDescription2: "Accountable to :  Las Casas Gaming, Inc.",
@@ -383,8 +383,8 @@ class Team extends Component {
                 id: 18,
                 parent: 116,
                 title: "Ken Jairul Murillo",
-                jd_pdf: "Junior Web Developer",
-                description: "Junior Web Developer",
+                jd_pdf: "Software Developer",
+                description: "Software Developer",
                 image: "/images/ken.jpg",
                 templateName: "contactTemplate2",
                 jobDescription0: "Position Title: Junior Web Developer",
@@ -396,7 +396,7 @@ class Team extends Component {
             {
                 id: 19,
                 parent: 116,
-                title: "John Aldren Abalos",
+                title: "John Abalos",
                 jd_pdf: "Mobile Application Developer",
                 description: "Mobile Application Developer",
                 image: "/images/aldren.jpg",
