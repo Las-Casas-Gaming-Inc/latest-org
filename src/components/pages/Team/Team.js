@@ -18,8 +18,9 @@ const JOB_DESCRIPTIONS = {
         "https://organization.lascasasgaming.com/job_descriptions/softdev_jd.pdf",
     "IT Specialist": "https://organization.lascasasgaming.com/job_descriptions/itspec_jd.pdf",
     "IT Infrastructure": "https://organization.lascasasgaming.com/job_descriptions/infra_jd.pdf",
-    "Junior Developer": "https://organization.lascasasgaming.com/job_descriptions/jr_dev_jd.pdf",
-    "Senior Developer":
+    "Junior Web Developer": "https://organization.lascasasgaming.com/job_descriptions/jr_dev_jd.pdf",
+    "Mid Web Developer": "https://organization.lascasasgaming.com/job_descriptions/mid_webdev_jd.pdf",
+    "Senior Web Developer":
         "https://organization.lascasasgaming.com/job_descriptions/sr_web_dev_jd.pdf",
     "Mobile App Developer":
         "https://organization.lascasasgaming.com/job_descriptions/mob_app_dev_jd.pdf",
@@ -69,12 +70,14 @@ const JOB_KPI = {
     "IT Specialist": "https://organization.lascasasgaming.com/itspec_kpi.pdf",
     "IT Infrastructure":
         "https://organization.lascasasgaming.com/infra_kpi.pdf",
-    "Junior Developer":
+    "Junior Web Developer":
         "https://organization.lascasasgaming.com/jr_dev_kpi.pdf",
-    "Senior Developer":
+    "Senior Web Developer":
         "https://organization.lascasasgaming.com/sr_web_dev_kpi.pdf",
     "Mobile App Developer":
         "https://organization.lascasasgaming.com/mob_app_kpi.pdf",
+    "Software Developer":
+        "https://organization.lascasasgaming.com/job_descriptions/softdev_jd.pdf",
     "Customer Service Representative":
         "https://organization.lascasasgaming.com/csr_kpi.pdf",
     "Multimedia Artist":
@@ -221,7 +224,7 @@ class Team extends Component {
                 jobDescription1: "Reporting Relationships",
                 jobDescription2: "Accountable to :  Las Casas Gaming, Inc.",
                 jobDescription3:
-                    "Reports to : Gino Rafael Dimaano - AVP IT HEAD",
+                    "Reports to : Maria Celerina Gallardo III - Vice President for Operations",
             },
             { id: 100, parent: 7, isVisible: false },
             {
@@ -605,7 +608,7 @@ class Team extends Component {
                 id: 33,
                 parent: 32,
                 title: "Pamela Balona",
-                jd_pdf: "Housekeeping",
+                jd_pdf: "Utility Personnel",
                 description: "Housekeeping",
                 image: "/images/Pam.png",
                 templateName: "contactTemplate2",
@@ -614,7 +617,7 @@ class Team extends Component {
                 jobDescription1: "Reporting Relationships",
                 jobDescription2: "Accountable to :  Las Casas Gaming, Inc.",
                 jobDescription3:
-                    "Reports to : Maria Celerina Gallardo III / Admin/HR Head",
+                    "Reports to : Maria Celerina Gallardo III / Admin /HR Head",
             },
         ];
 
